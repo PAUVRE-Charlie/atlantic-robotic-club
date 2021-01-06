@@ -1,7 +1,19 @@
+/*
+  This file is the first one to be executed when the website is launched.
+  It is the root of the whole website.
+*/
+
+/* Packages */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+/* Styles */
+import './styles/css/index.css';
+
+/* Components */
 import App from './App';
+
+/* To mesure performance */
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

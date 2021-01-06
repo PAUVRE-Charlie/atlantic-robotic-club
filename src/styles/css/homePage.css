@@ -1,0 +1,74 @@
+.homePageContainer {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.robotName {
+  position: absolute;
+  top: 0vh;
+  right: 0;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  z-index: 2;
+  font-size: 15vw;
+  font-weight: bold;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+  -webkit-transform: rotate(23.5deg);
+          transform: rotate(23.5deg);
+}
+
+.clubLogo {
+  position: absolute;
+  height: 50vh;
+  left: 55%;
+  bottom: 40%;
+  z-index: 3;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.categories {
+  margin: 90vh 0 20vh 20%;
+  padding: 0;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.categoryItem {
+  font-size: 20vh;
+  font-weight: bold;
+  line-height: 100%;
+  margin: 5vh;
+  z-index: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.categoryItem:hover {
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
+
+@media screen and (max-width: 800px) {
+  .robotName {
+    font-size: 20vw;
+  }
+  .homePageContainer img {
+    left: 50%;
+    height: 40%;
+  }
+  .categories {
+    margin: 95vh 0 20vh 0%;
+    width: 100%;
+  }
+  .categoryItem {
+    font-size: 25vw;
+  }
+}
+/*# sourceMappingURL=homePage.css.map */

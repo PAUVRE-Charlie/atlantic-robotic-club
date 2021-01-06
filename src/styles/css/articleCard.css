@@ -1,0 +1,37 @@
+.articleCardContainer {
+  width: 25rem;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem 2rem;
+  margin: 1rem;
+  overflow: hidden;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.titleCard {
+  font-size: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.previewCard {
+  margin-top: 0.8rem;
+  overflow: hidden;
+  font-size: 0.8rem;
+  max-height: 4rem;
+  line-height: 100%;
+  text-align: justify;
+}
+
+/* this class is used to animate the box container when it appears on the screen */
+.fadeAndMoveFromBelow {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+/*# sourceMappingURL=articleCard.css.map */
