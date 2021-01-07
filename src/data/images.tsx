@@ -117,7 +117,7 @@ const images = {
 		},
 		code3: {
 			name: 'Third part of the code',
-			src: baseURL + 'detection_code3.PNG',
+			src: baseURL + 'detection_code3.png',
 		},
 	},
 	clubNantes:{
