@@ -30,17 +30,18 @@ export default function App() {
   return (
     <Router>
       <div style={{backgroundColor: colors.background, width: '100%', height: '100%'}}>
-        <Header />
-        <Switch>
+        {/* <Header /> */}
+        Hello
+        {/* <Switch> */}
           {/* The route to the home page */}
-          <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+          {/* <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} /> */}
           {/* The route to the articles page */}
-          <Route exact path={process.env.PUBLIC_URL + '/articles/:category'} component={({match, location, history}: RouteComponentProps<MatchParamsArticlesPage>) => <ArticlesPage match={match} history={history} location={location}/>} />
+          {/* <Route exact path={process.env.PUBLIC_URL + '/articles/:category'} component={({match, location, history}: RouteComponentProps<MatchParamsArticlesPage>) => <ArticlesPage match={match} history={history} location={location}/>} /> */}
           {/* The route to the article page */}
-          <Route exact path={process.env.PUBLIC_URL + '/articles/:category/:id'} component={({match, location, history}: RouteComponentProps<MatchParamsArticlePage>) => <ArticlePage match={match} history={history} location={location} />} />
+          {/* <Route exact path={process.env.PUBLIC_URL + '/articles/:category/:id'} component={({match, location, history}: RouteComponentProps<MatchParamsArticlePage>) => <ArticlePage match={match} history={history} location={location} />} /> */}
           {/* The adress of the page that will appear on the user's screen when he is redirected */}
-          <Redirect to={process.env.PUBLIC_URL + '/'} />
-        </Switch>
+          {/* <Redirect to={process.env.PUBLIC_URL + '/'} /> */}
+        {/* </Switch> */}
       </div>
     </Router>
   );
