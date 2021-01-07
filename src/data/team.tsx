@@ -54,8 +54,8 @@ const team: Team = {
         },
         {
             id: 5,
-            firstname: 'Victor',
-            lastname: 'Gerardo Nosthas',
+            firstname: 'Victor Gerardo',
+            lastname: 'Nosthas',
             nickname: 'Chief Happiness Officer',
             campus: 'Nantes',
             image: images.clubNantes.victor,

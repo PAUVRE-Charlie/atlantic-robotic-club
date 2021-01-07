@@ -49,7 +49,6 @@ export interface Logo {
 
 export interface Section {
     title: string;
-    url: string;
     body: React.ReactFragment
 }
 

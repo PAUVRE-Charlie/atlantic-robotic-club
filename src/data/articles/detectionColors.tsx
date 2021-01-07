@@ -23,7 +23,6 @@ const article: Article = {
 	body: [
         {
             title: "Introduction",
-            url: "introduction",
             body: (
                 <React.Fragment>
                     <p>Dans le cadre de notre stratégie, il est nécessaire de classer la couleur de chacune des bouées collectées par notre robot et de les placer ensuite dans les chenaux pour reconstituer la balistique, c'est-à-dire les placer correctement sur les lignes de chenal dans les ports, en étant de préférence triées par couleur.</p>
@@ -32,7 +31,6 @@ const article: Article = {
         },
         {
             title: "Définition des besoins",
-            url: 'needs',
             body: (
                 <React.Fragment>
                     <p>Il est nécessaire de définir les besoins de détection de couleur de chacune des bouées et ensuite, leur emplacement sur les routes dans les ports. Pour cela, notre détecteur doit pouvoir le faire :</p>
@@ -48,7 +46,6 @@ const article: Article = {
         },
         {
             title: "Sélection",
-            url: 'selection',
             body: (
                 <React.Fragment>
                     <p>Dans notre phase de sélection, deux détecteurs de couleur ont été présélectionnés, dont chacun sera analysé en tenant compte des caractéristiques requises pour la réalisation de notre stratégie. Les deux capteurs sont:</p>
@@ -74,7 +71,6 @@ const article: Article = {
         },
         {
             title: "Mise en oeuvre et codification",
-            url: 'code',
             body: (
                 <React.Fragment>
                     <span>Pour tester notre capteur, nous l'implanterions à Arduino comme indiqué ci-dessous:</span>

@@ -72,7 +72,7 @@ export default function HomePage() {
                     <Link to={navigation.robot.completeLink} className="categoryItem" style={{color: colors.white, transform: 'rotate(15deg)'}}>
                         Robot
                     </Link>
-                    <Link to={navigation.coupe.completeLink} className="categoryItem" style={{color: colors.darkBlue, transform: 'rotate(-15deg)'}}>
+                    <Link to={navigation.cup.completeLink} className="categoryItem" style={{color: colors.darkBlue, transform: 'rotate(-15deg)'}}>
                         Coupe
                     </Link>
                     <Link to={navigation.club.completeLink} className="categoryItem" style={{color: colors.accent, transform: 'rotate(15deg)'}}>

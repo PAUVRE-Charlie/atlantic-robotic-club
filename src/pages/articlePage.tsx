@@ -65,7 +65,7 @@ export default function ArticlesPage({match}: RouteComponentProps<MatchParamsArt
                     {/* the contents section of the article */}
                     <div className="articleContents">
                         { article.body && article.body.length > 1 && article.body.map(section =>{
-                            return <LinkScroll key={"contents_"+section.url} to={(section.url)} style={{color: colors.darkBlue}}>{section.title}</LinkScroll>
+                            return <LinkScroll key={"contents_"+section.title} to={(section.title)} style={{color: colors.darkBlue}}>{section.title}</LinkScroll>
                         })}
                     </div>
                     
@@ -74,13 +74,13 @@ export default function ArticlesPage({match}: RouteComponentProps<MatchParamsArt
                         { article.body && (
                             article.body.length > 1 ?(
                                 article.body.map(section =>{
-                                    return <Fragment key={"body_"+section.url}>
-                                        <h2 id={section.url}>{section.title}</h2>
+                                    return <Fragment key={"body_"+section.title}>
+                                        <h2 id={section.title}>{section.title}</h2>
                                         {section.body}
                                     </Fragment>
                                 })
                             ) : article.body.map(section =>{
-                                return <Fragment key={"body_"+section.url}>
+                                return <Fragment key={"body_"+section.title}>
                                     {section.body}
                                 </Fragment>
                             })

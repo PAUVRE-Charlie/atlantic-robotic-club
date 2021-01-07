@@ -23,7 +23,7 @@ export const navigation = {
         link: 'robot',
         completeLink: baseURL + 'robot'
     },
-    coupe: {
+    cup: {
         name:'Coupe',
         link:'coupe',
         completeLink: baseURL + 'coupe'
@@ -44,7 +44,7 @@ export const sideTextElements: SideTextElement[] = [
         position: '5%',
     },
     {
-        navigationItem: navigation.coupe,
+        navigationItem: navigation.cup,
         color: colors.darkBlue,
         position: '35%',
     },
